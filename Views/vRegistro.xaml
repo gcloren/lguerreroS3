@@ -3,6 +3,12 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="mguerronS3.Views.vRegistro"
              Title="vRegistro">
+    <ContentPage.Resources>
+        <Style TargetType="Entry">
+            <Setter Property="Background" Value="RosyBrown"/>
+            <Setter Property="TextColor" Value="Yellow"/>
+        </Style>
+    </ContentPage.Resources>
     <VerticalStackLayout>
         <Label 
             Text="Registro de Usuarios"
